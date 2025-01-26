@@ -17,7 +17,13 @@ const About = () => {
   return (
     <section className="text-white" id="a-propos">
       <div className="md:grid md:grid-cols-2 gap-8 py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/pc.webp" width={500} height={500} alt="pc" />
+        <Image
+          src="/images/pc.webp"
+          width={500}
+          height={500}
+          alt="pc"
+          className="rounded-xl"
+        />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">À propos</h2>
           <p className="text-base lg:text-lg">

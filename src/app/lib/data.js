@@ -61,8 +61,8 @@ export const projectsData = [
     description: "Portfolio réalisé avec NextJs et TailwindCSS.",
     image: "/images/projects/portfolio.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/MatthieuRault/portfolio",
+    previewUrl: "https://matthieu-rault-portfolio.vercel.app/",
   },
   {
     id: 2,
