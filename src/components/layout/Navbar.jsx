@@ -26,7 +26,7 @@ const Navbar = () => {
 
   return (
     <nav className="fixed mx-auto border border-[#33353F] top-0 left-0 right-0 z-10 bg-[#121212] bg-opacity-100">
-      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4 py-2">
+      <div className="flex container lg:py-4 flex-wrap items-center justify-between mx-auto px-4">
         <Link
           href={"/"}
           className="text-2xl md:text-5xl text-white font-semibold"
@@ -36,7 +36,7 @@ const Navbar = () => {
             alt="Logo"
             width={70}
             height={70}
-            className="w-auto h-auto"
+            className="w-auto md:h-[70px] h-[60px]"
           />
         </Link>
         <div className="mobile-menu block md:hidden">
